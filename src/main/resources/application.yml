@@ -1,5 +1,7 @@
 server:
-  port: 8080
+  port: 10086
+  servlet:
+    context-path: /
 
 # mysql properties config
 spring:
