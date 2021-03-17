@@ -34,8 +34,8 @@ Configuration:
       AppenderRef:
         - ref: CONSOLE
         - ref: ROLLING_FILE
-    Logger: # 为com.xjj包配置特殊的Log级别，方便调试
-      - name: com.xwtec
+    Logger: # 为com.sDemo包配置特殊的Log级别，方便调试
+      - name: com.sDemo
         additivity: false
         level: debug
         AppenderRef:
